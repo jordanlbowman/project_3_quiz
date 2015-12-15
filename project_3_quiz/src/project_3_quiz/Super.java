@@ -30,7 +30,6 @@ public class Super {
 		n = JOptionPane.showInputDialog("First thing's first. What's your first name?");
 		if (n.matches( "[A-Z][a-zA-Z]*" )){ //adapted from http://www.java2s.com/Tutorial/Java/0120__Development/Validatethefirstnameandlastname.htm
 			Sub2.favorite();
-			Sub1.JFrame_yes();
 		}
 		else{
 			Super.name(n);

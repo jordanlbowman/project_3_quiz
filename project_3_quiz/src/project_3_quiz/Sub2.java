@@ -4,10 +4,10 @@ import javax.swing.JOptionPane;
 
 public class Sub2 extends Super{
 	//Variables
-	private static String animal;
-	private static String state;
-	private static String school;
-	private static String team;
+	public static String animal;
+	public static String state;
+	public static String school;
+	public static String team;
 	public static String [] favorite;
 	
 	public static void favorite(){
@@ -15,7 +15,7 @@ public class Sub2 extends Super{
 		states();
 		school();
 		NFL_team();
-		compile(team, school, state, animal);
+		//compile(team, school, state, animal);
 	}
 	private static String animal(){
 		String[] animals = {
