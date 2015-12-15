@@ -6,6 +6,7 @@ import javax.swing.JOptionPane;
 
 public class Super {
 	public static String n;
+	
 	public static void progstart(){
 		//create a Date to allow program to get current date/time
 		//adapted from http://www.tutorialpoints.com/java/java_date_time.htm
