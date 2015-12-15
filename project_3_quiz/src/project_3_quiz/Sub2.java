@@ -8,10 +8,10 @@ public class Sub2 extends Super{
 			null,null,null,null,null};
 	
 	public static String[] favorite(){
-		animal();
-		states();
-		school();
-		NFL_team();
+		animal();//calls the animal method
+		states();//calls the states method
+		school();//calls the school method
+		NFL_team();//calls the NFL method
 		return favorite;
 	}
 	private static void animal(){

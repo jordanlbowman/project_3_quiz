@@ -15,6 +15,7 @@ public class Sub1 extends Super{
 	public static void Jf_yes (){
 		JFrame.setDefaultLookAndFeelDecorated(true);
 	    JFrame jf = new JFrame("Hello");
+	    //adapted from https://docs.oracle.com/javase/tutorial/uiswing/components/label.html
 	    jf.add(new JLabel(Sub2.favorite[0],JLabel.CENTER));	 
 	    jf.add(new JLabel(new ImageIcon("src/animals/"+Sub2.favorite[0]+".jpg")));
 	    jf.add(new JLabel(Sub2.favorite[1],JLabel.CENTER));
@@ -25,12 +26,15 @@ public class Sub1 extends Super{
 	    jf.add(new JLabel(new ImageIcon("src/NFL_logos/"+Sub2.favorite[4])));
 	    jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    jf.setLayout(new GridLayout(0,2));
+	    //adapted from https://docs.oracle.com/javase/tutorial/uiswing/layout/grid.html
 	    jf.setMinimumSize(new Dimension(400,600));
 	    jf.setLocationRelativeTo(null);
 	    jf.setVisible(true);
 	    //System.out.println(Super.n);
 	}
 	public static void print() {
+		//adapted from http://www.mkyong.com/java/how-to-write-to-file-in-java-bufferedwriter-example/
+		//write to text file method
 		try {
 
 			FileWriter fw = new FileWriter("fileout.txt");
